@@ -43,7 +43,7 @@ services:
   # Backend Gestion Employé
   # -------------------------------
   backend-service:
-    image: ditdevops1/backend-employe:1.${BUILD_NUMBER}
+    image: bocardocker/backend-employe:1.${BUILD_NUMBER}
     container_name: backend-employe-prod
     ports:
       - "8001:8000"
